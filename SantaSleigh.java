@@ -78,35 +78,3 @@ public LinkedList<Gift> giftsToDeliverToCountry(Country c) {
 public boolean isSleighEmpty() {
     return list.isEmpty();
 }
-
-//Main class
-
-public class Main {
-    public static void main(String[] args) {
-        SantaSleigh sleigh = new SantaSleigh();
-
-        Gift gift1 = new Gift(1, "123 Ottawa", Country.CANADA);
-        Gift gift2 = new Gift(2, "456 Paris", Country.FRANCE);
-        Gift gift3 = new Gift(1, "789 Toronto", Country.CANADA); 
-
-        // Add gifts
-        System.out.println("Add gift1: " + sleigh.addGift(gift1));
-        System.out.println("Add gift2: " + sleigh.addGift(gift2)); 
-        System.out.println("Add gift3: " + sleigh.addGift(gift3)); 
-
-        // Check if sleigh is empty
-        System.out.println("Is sleigh empty? " + sleigh.isSleighEmpty());
-
-        // Deliver a gift to Canada
-        Gift delivered = sleigh.deliverGift(Country.CANADA);
-        System.out.println("Delivered gift id: " + (delivered != null ? delivered.getId() : "None"));
-
-        // Get all gifts to deliver to France
-        LinkedList<Gift> franceGifts = sleigh.giftsToDeliverToCountry(Country.FRANCE);
-        System.out.println("Gifts to deliver to France: " + franceGifts.size()); 
-
-        // Deliver a gift to Japan (no gift)
-        Gift deliveredJapan = sleigh.deliverGift(Country.JAPAN);
-        System.out.println("Delivered gift to Japan: " + (deliveredJapan != null ? deliveredJapan.getId() : "None")); 
-    }
-}
