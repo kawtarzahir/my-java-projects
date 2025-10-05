@@ -17,17 +17,17 @@ public class Gazelle implements Prey {
 public class Lion implements Predator {
   @Override
   public void hunt() {
-    System.out.println("The lion starts the attack!);
+    System.out.println("The lion starts the attack!");
   }
 }
 //Main class
-public class Main
+public class Main {
   public static void main(String[] args) {
     Lion lion = new Lion();
     Gazelle gazelle = new Gazelle();
 
-       Gazelle.flee();
-       Lion.hunt();
+       gazelle.flee();
+       lion.hunt();
   }
 }
     
