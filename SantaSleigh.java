@@ -30,7 +30,7 @@ class Gift {
 }
 
 enum Country {
-    ITALY, FRANCE, ENGLAND, CANADA, JAPAN, KENYA
+    ITALY, FRANCE, ENGLAND, CHINA, JAPAN, MOROCCO
 }
 
 //Write the code for the following methods, which serve these purposes:
