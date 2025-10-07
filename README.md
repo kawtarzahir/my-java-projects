@@ -29,7 +29,7 @@ A simple model with interfaces and polymorphism:
 - 'Fish' implements 'Prey' and 'Predator'
 - Demonstrates how different objects bevave using the same methods ('hunt', 'run');
 
-**Concepts:**interfaces, polymorphism, overriding method.
+**Concepts:** interfaces, polymorphism, overriding method.
 
 ### 5. 🎅🎁 SantaSleigh
 A mini project that models Santa's sleigh and the gifts to be delivered around the world.
