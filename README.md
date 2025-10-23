@@ -31,12 +31,15 @@ A simple model with interfaces and polymorphism:
 
 **Concepts:** interfaces, polymorphism, overriding method.
 
-### 5. 🎅🎁 SantaSleigh
-A mini project that models Santa's sleigh and the gifts to be delivered around the world.
+### 8. 🛸 AlienZoo  
+A small project that models an **interplanetary zoo** containing alien creatures from different planets.  
 
-- 'Gift' class
-- 'Country' enum
-- 'Santasleigh'  class with methods to add, deliver, and list gifts
+- 'Alien' class  
+- 'Planet' enum  
+- 'AlienZoo' class with methods to add, release, and list aliens  
+
+**Concepts:** OOP, collections ('LinkedList'), enums, search and remove operations.
+
 
 **Concepts:** OOP, collections ('LinkedList'), enums, search and remove operations.
 
