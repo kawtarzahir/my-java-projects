@@ -31,14 +31,17 @@ A simple model with interfaces and polymorphism:
 
 **Concepts:** interfaces, polymorphism, overriding method.
 
-### 8. 🛸 AlienZoo  
-A small project that models an **interplanetary zoo** containing alien creatures from different planets.  
+### 5. 🧙‍♂️ HarryPotter Duel Simulator  
+A simple Harry Potter-themed program simulating a magical duel between two wizards.
 
-- 'Alien' class  
-- 'Planet' enum  
-- 'AlienZoo' class with methods to add, release, and list aliens  
+- `Wizard` class with attributes like name, house, health, and magic power.  
+- `Spell` class representing spells with names and damage values.  
+- Wizards cast spells on each other, reducing health based on magic power and spell damage.  
+- Simulates one round of duel with output showing spell casts, damage, and health status.  
+- Determines and prints the winner or if the duel is a tie.
 
-**Concepts:** OOP, collections ('LinkedList'), enums, search and remove operations.
+**Concepts:** classes, enums, object interaction, basic OOP, method calls, console output.
+
 
 
 ### 6. 🧑🏻‍🎓 Student 
