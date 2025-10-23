@@ -57,6 +57,16 @@ An example using **abstract classes**:
 
 **Concepts:** abstraction, inheritance, overriding method.
 
+### 10. 🕵️‍♂️ Detective Case Management System  
+A system to manage detective cases within a crime agency.
+
+- `Case` class models a case with ID, title, description, status, and suspects list.  
+- `Detective` class represents detectives with unique IDs and assigned cases.  
+- `Agency` class manages collections of cases and detectives, with methods to add cases/detectives, assign cases, close cases, and query cases by status or detective.
+
+**Concepts:** OOP, enums, collections, object relationships, uniqueness checks, filtering.
+
+
 ## 📌 How to run
 Each file contains its own 'main' method
 
