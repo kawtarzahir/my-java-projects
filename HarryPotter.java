@@ -102,7 +102,7 @@ class Wizard {
 
 // Main class to simulate a simple duel between two wizards
 
-public class SimpleDuel {
+public class HarryPotter {
     public static void main(String[] args) {
         
         // Create two wizard instances with names, houses, and magic power
