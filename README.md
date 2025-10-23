@@ -41,8 +41,6 @@ A small project that models an **interplanetary zoo** containing alien creatures
 **Concepts:** OOP, collections ('LinkedList'), enums, search and remove operations.
 
 
-**Concepts:** OOP, collections ('LinkedList'), enums, search and remove operations.
-
 ### 6. 🧑🏻‍🎓 Student 
 A small class representing a students with basic attributes and methods. It can be used as a starting point for larger projects such as student management system.
 
